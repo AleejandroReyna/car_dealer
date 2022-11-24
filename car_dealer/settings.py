@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'locations.apps.LocationsConfig',
-    'geography.apps.GeographyConfig'
+    'geography.apps.GeographyConfig',
+    'brands.apps.BrandsConfig'
 ]
 
 MIDDLEWARE = [
