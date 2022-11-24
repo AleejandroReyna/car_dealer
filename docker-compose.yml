@@ -9,6 +9,8 @@ services:
       MYSQL_PASSWORD: "${MYSQL_PASSWORD}"
       MYSQL_USER: "${MYSQL_USER}"
       MYSQL_DATABASE: "${MYSQL_DATABASE}"
+    cap_add:
+      - SYS_NICE
     ports:
       - 3306:3306
     networks:
