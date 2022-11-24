@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'locations.apps.LocationsConfig',
     'geography.apps.GeographyConfig',
-    'brands.apps.BrandsConfig'
+    'brands.apps.BrandsConfig',
+    'cars.apps.CarsConfig'
 ]
 
 MIDDLEWARE = [
